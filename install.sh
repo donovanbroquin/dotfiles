@@ -46,3 +46,13 @@ pecl install redis mongodb
 # Install Valet
 valet install
 valet trust
+
+# -----------------------------------------------------------------------
+# Configure macOS user settings
+# -----------------------------------------------------------------------
+
+# Dock size
+defaults write com.apple.dock tilesize -int 35
+
+# Dock magnification
+defaults write com.apple.dock largesize -int 60
