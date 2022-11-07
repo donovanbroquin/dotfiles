@@ -15,9 +15,6 @@ ssh-add -apple-use-keychain ~/.ssh/id_ed25519
 # Copy Mackup config
 cp .mackup.cfg ~/.mackup.cfg
 
-# Install XCode Command Line Tools
-xcode-select --install
-
 # Install Oh My Zsh
 if test ! $(which omz); then
   /bin/sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
