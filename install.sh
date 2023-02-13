@@ -13,10 +13,7 @@ mkdir ~/.ssh
 cp /Users/donovan/Documents/Clés/SSH/id_* ~/.ssh
 chmod 600 ~/.ssh/id_rsa
 eval "$(ssh-agent -s)"
-ssh-add -apple-use-keychain ~/.ssh/id_ed25519
-
-# Copy Mackup config
-cp .mackup.cfg ~/.mackup.cfg
+ssh-add -apple-use-keychain ~/.ssh/id_rsa
 
 # Install Oh My Zsh
 if test ! $(which omz); then

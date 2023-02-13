@@ -29,3 +29,7 @@ alias ls="exa"
 alias vi="nvim"
 alias vim="nvim"
 alias nano="nvim"
+
+# Laravel aliases 😎
+alias art="php artisan"
+alias artmf="php artisan migrate:fresh"

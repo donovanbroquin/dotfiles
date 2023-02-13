@@ -23,27 +23,31 @@ brew 'mas'
 cask 'docker'
 cask 'phpstorm'
 cask 'homebrew/cask-versions/firefox-developer-edition'
-cask 'brave-browser'
-cask 'aldente'
 cask 'discord'
 cask 'fork'
 cask 'rectangle'
-cask 'slack'
 cask 'visual-studio-code'
 cask 'phpmon'
 cask 'iterm2'
 cask 'monitor-control'
+cask 'battery'
+cask 'diffusionbee'
+cask 'firefox-developer-edition'
+cask 'arc'
+cask 'jetbrains-toolbox'
+cask 'paw'
+cask 'notion'
+cask 'balenaetcher'
+cask 'mimestream'
+
 
 # Apps from Mac App Store
-mas 'Affinity Photo', id: 824183456
-mas 'Affinity Designer', id: 824171161
-mas 'Affinity Publisher', id: 881418622
 mas 'Amphetamine', id: 937984704
 mas 'Pixelmator Pro', id: 1289583905
-mas 'Pages', id: 409201541
 mas 'Numbers', id: 409203825
-mas 'Keynote', id: 409183694
 mas 'Xcode', id: 497799835
+mas 'iA Writer', id: 775737590
+mas 'Things', id: 904280696
 
 # Fonts
 cask 'font-fira-code-nerd-font'
