@@ -1,5 +1,4 @@
 tap 'homebrew/cask'
-tap 'nicoverbruggen/homebrew-cask'
 tap 'homebrew/cask-fonts'
 
 # Terminal utilities and languages
@@ -15,7 +14,6 @@ brew 'gping'
 brew 'git'
 brew 'coreutils'
 brew 'bat'
-brew 'composer'
 brew 'nvm'
 brew 'mas'
 
@@ -27,7 +25,6 @@ cask 'discord'
 cask 'fork'
 cask 'rectangle'
 cask 'visual-studio-code'
-cask 'phpmon'
 cask 'iterm2'
 cask 'monitor-control'
 cask 'battery'
@@ -39,7 +36,8 @@ cask 'paw'
 cask 'notion'
 cask 'balenaetcher'
 cask 'mimestream'
-
+cask 'google-chrome'
+cask 'notion'
 
 # Apps from Mac App Store
 mas 'Amphetamine', id: 937984704
@@ -48,6 +46,8 @@ mas 'Numbers', id: 409203825
 mas 'Xcode', id: 497799835
 mas 'iA Writer', id: 775737590
 mas 'Things', id: 904280696
+mas 'Session - Pomodoro Focus Timer', id: 1521432881
+mas 'One Thing', id: 1604176982
 
 # Fonts
 cask 'font-fira-code-nerd-font'
