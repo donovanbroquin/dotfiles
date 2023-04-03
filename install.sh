@@ -34,16 +34,6 @@ brew update
 brew tap homebrew/bundle
 brew bundle --file ./Brewfile
 
-# Install PHP extensions with PECL
-pecl install redis mongodb
-
-# Install global Composer dependencies
-/usr/local/bin/composer global require laravel/installer laravel/valet
-
-# Install Valet
-valet install
-valet trust
-
 # -----------------------------------------------------------------------
 # Configure macOS user settings
 # -----------------------------------------------------------------------
