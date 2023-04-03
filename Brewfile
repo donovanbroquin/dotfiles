@@ -37,7 +37,6 @@ cask 'notion'
 cask 'balenaetcher'
 cask 'mimestream'
 cask 'google-chrome'
-cask 'notion'
 
 # Apps from Mac App Store
 mas 'Amphetamine', id: 937984704
