@@ -20,7 +20,6 @@ brew 'mas'
 # Apps
 cask 'docker'
 cask 'phpstorm'
-cask 'homebrew/cask-versions/firefox-developer-edition'
 cask 'discord'
 cask 'fork'
 cask 'rectangle'
