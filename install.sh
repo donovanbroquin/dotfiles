@@ -32,7 +32,7 @@ ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
 # Install Homebrew utilities
 brew update
 brew tap homebrew/bundle
-brew bundle --file ./Brewfile
+brew bundle --file ~/.dotfiles/Brewfile
 
 # -----------------------------------------------------------------------
 # Configure macOS user settings
