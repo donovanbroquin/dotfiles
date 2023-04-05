@@ -8,7 +8,6 @@ brew 'htop'
 brew 'exa'
 brew 'fx'
 brew 'neovim'
-brew 'numi'
 brew 'fd'
 brew 'broot'
 brew 'gping'
@@ -17,7 +16,6 @@ brew 'coreutils'
 brew 'bat'
 brew 'nvm'
 brew 'mas'
-brew 'monitorcontrol'
 
 # Apps
 cask 'docker'
@@ -37,6 +35,8 @@ cask 'notion'
 cask 'balenaetcher'
 cask 'mimestream'
 cask 'google-chrome'
+cask 'MonitorControl'
+cask 'numi'
 
 # Apps from Mac App Store
 mas 'Amphetamine', id: 937984704
@@ -49,3 +49,5 @@ mas 'One Thing', id: 1604176982
 
 # Fonts
 cask 'font-fira-code-nerd-font'
+cask 'MonitorControl'
+cask 'numi'
