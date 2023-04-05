@@ -41,7 +41,6 @@ cask 'google-chrome'
 mas 'Amphetamine', id: 937984704
 mas 'Pixelmator Pro', id: 1289583905
 mas 'Numbers', id: 409203825
-mas 'Xcode', id: 497799835
 mas 'iA Writer', id: 775737590
 mas 'Things', id: 904280696
 mas 'Session - Pomodoro Focus Timer', id: 1521432881
