@@ -43,7 +43,8 @@ defaults write com.apple.dock tilesize -int 35
 defaults write com.apple.dock largesize -int 35
 
 # Dock magnification
-defaults write com.apple.dock largesize -int 60
+defaults write com.apple.dock magnification -bool true
+defaults write com.apple.dock largesize -float 70
 
 # Dock position
 defaults write com.apple.dock orientation -string right
