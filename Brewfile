@@ -1,5 +1,6 @@
 tap 'homebrew/cask'
 tap 'homebrew/cask-fonts'
+tap 'homebrew/cask-versions'
 
 # Terminal utilities and languages
 brew 'php'
