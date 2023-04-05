@@ -3,7 +3,7 @@
 echo "Let's intall this fresh macOS 😎"
 
 # Remove last login line from terminal
-touch .hushlogin
+touch ~/.hushlogin
 
 # Create default projects directory
 mkdir ~/Projects
