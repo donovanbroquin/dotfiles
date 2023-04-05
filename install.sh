@@ -10,7 +10,7 @@ mkdir ~/Projects
 
 # Prepare SSH keys
 mkdir ~/.ssh
-cp /Users/donovan/Documents/Clés/SSH/id_* ~/.ssh
+cp /Users/donovan/Documents/Clés/SSH/id_* ~/.ssh
 chmod 600 ~/.ssh/id_rsa
 eval "$(ssh-agent -s)"
 ssh-add --apple-use-keychain ~/.ssh/id_rsa
@@ -40,6 +40,29 @@ brew bundle --file ~/.dotfiles/Brewfile
 
 # Dock size
 defaults write com.apple.dock tilesize -int 35
+defaults write com.apple.dock largesize -int 35
 
 # Dock magnification
 defaults write com.apple.dock largesize -int 60
+
+# Dock position
+defaults write com.apple.dock orientation -string right
+
+# Dock hide recent apps
+defaults write com.apple.dock show-recents -bool false
+
+# Dock auto hide
+defaults write com.apple.dock autohide -bool true
+
+# Keyboard speed
+defaults write -g KeyRepeat -int 1
+defaults write -g InitialKeyRepeat -int 15
+
+# Sidebar icons
+defaults write com.apple.sidebar iconSize -int 16
+defaults write NSGlobalDomain NSTableViewDefaultSizeMode -int 1
+defaults write -g NSTableViewDefaultSizeMode -int 1
+
+# Restart all things
+killall Dock
+killall Finder
