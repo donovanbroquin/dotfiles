@@ -39,6 +39,9 @@ brew update
 brew tap homebrew/bundle
 brew bundle --file ~/.dotfiles/Brewfile
 
+# Prepare NVM
+mkdir ~/.nvm
+
 # -----------------------------------------------------------------------
 # Configure macOS user settings
 # -----------------------------------------------------------------------
