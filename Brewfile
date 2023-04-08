@@ -16,6 +16,7 @@ brew 'coreutils'
 brew 'bat'
 brew 'nvm'
 brew 'mas'
+brew 'tree'
 
 # Apps
 cask 'docker'
