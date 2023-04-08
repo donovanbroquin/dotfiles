@@ -8,6 +8,9 @@ touch ~/.hushlogin
 # Create default projects directory
 mkdir ~/Projects
 
+# Export env variables
+export HOMEBREW_NO_AUTO_UPDATE=1
+
 # Prepare SSH keys
 mkdir ~/.ssh
 cp /Users/donovan/Documents/Clés/SSH/id_* ~/.ssh
@@ -39,8 +42,14 @@ brew update
 brew tap homebrew/bundle
 brew bundle --file ~/.dotfiles/Brewfile
 
+# Update terminal
+source ~/.zshrc
+
 # Prepare NVM
 mkdir ~/.nvm
+
+# Install Node.js LTS
+nvm install --lts
 
 # -----------------------------------------------------------------------
 # Configure macOS user settings
