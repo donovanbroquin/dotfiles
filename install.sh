@@ -1,12 +1,13 @@
 #!/bin/sh
 
-echo "Let's intall this fresh macOS 😎"
+echo "Let's install this fresh macOS 😎"
 
 # Remove last login line from terminal
 touch ~/.hushlogin
 
 # Create default projects directory
 mkdir ~/Projects
+mkdir ~/Playground
 
 # Export env variables
 export HOMEBREW_NO_AUTO_UPDATE=1
@@ -45,12 +46,6 @@ brew bundle --file ~/.dotfiles/Brewfile
 # Update terminal
 source ~/.zshrc
 
-# Prepare NVM
-mkdir ~/.nvm
-
-# Install Node.js LTS
-nvm install --lts
-
 # -----------------------------------------------------------------------
 # Configure macOS user settings
 # -----------------------------------------------------------------------
@@ -80,6 +75,9 @@ defaults write -g InitialKeyRepeat -int 15
 defaults write com.apple.sidebar iconSize -int 16
 defaults write NSGlobalDomain NSTableViewDefaultSizeMode -int 1
 defaults write -g NSTableViewDefaultSizeMode -int 1
+
+# Disable Spaces rearrangement
+defaults write com.apple.dock "mru-spaces" -bool "false"
 
 # Restart all things
 killall Dock
