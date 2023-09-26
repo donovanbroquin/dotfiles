@@ -39,6 +39,9 @@ cask 'android-studio'
 cask 'daisydisk'
 
 # Apps from Mac App Store
+mas 'Affinity Designer', id: 824171161
+mas 'Affinity Photo', id: 824183456
+mas 'Affinity Publisher', id: 881418622
 mas 'Amphetamine', id: 937984704
 mas 'Pixelmator Pro', id: 1289583905
 mas 'Pages', id: 409201541
