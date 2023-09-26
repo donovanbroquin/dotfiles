@@ -15,6 +15,7 @@ brew 'coreutils'
 brew 'bat'
 brew 'mas'
 brew 'tree'
+brew 'ollama'
 
 # Apps
 cask 'docker'
@@ -26,7 +27,7 @@ cask 'visual-studio-code'
 cask 'iterm2'
 cask 'battery'
 cask 'firefox-developer-edition'
-cask 'paw'
+cask 'rapidapi'
 cask 'balenaetcher'
 cask 'google-chrome'
 cask 'monitorcontrol'
@@ -34,12 +35,16 @@ cask 'figma'
 cask 'openemu'
 cask 'parsec'
 cask 'transmission'
+cask 'android-studio'
+cask 'daisydisk'
 
 # Apps from Mac App Store
 mas 'Amphetamine', id: 937984704
 mas 'Pixelmator Pro', id: 1289583905
+mas 'Pages', id: 409201541
 mas 'Numbers', id: 409203825
 mas 'Keynote', id: 409183694
+mas 'iMovie', id: 408981434
 mas 'iA Writer', id: 775737590
 mas 'Things', id: 904280696
 mas 'One Thing', id: 1604176982
