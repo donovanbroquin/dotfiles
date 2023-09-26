@@ -49,6 +49,7 @@ mas 'Numbers', id: 409203825
 mas 'Keynote', id: 409183694
 mas 'iMovie', id: 408981434
 mas 'iA Writer', id: 775737590
+mas 'One Thing', id: 1604176982
 mas 'Things', id: 904280696
 mas 'One Thing', id: 1604176982
 mas 'WireGuard', id: 1451685025
