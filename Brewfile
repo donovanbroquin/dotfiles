@@ -4,7 +4,7 @@ tap 'homebrew/cask-versions'
 
 # Terminal utilities and languages
 brew 'htop'
-brew 'exa'
+brew 'eza'
 brew 'fx'
 brew 'neovim'
 brew 'fd'
@@ -16,6 +16,7 @@ brew 'bat'
 brew 'mas'
 brew 'tree'
 brew 'ollama'
+brew 'font-fira-code-nerd-font'
 
 # Apps
 cask 'docker'
@@ -54,6 +55,3 @@ mas 'Things', id: 904280696
 mas 'One Thing', id: 1604176982
 mas 'WireGuard', id: 1451685025
 mas 'Xcode', id: 497799835
-
-# Fonts
-cask 'font-fira-code-nerd-font'

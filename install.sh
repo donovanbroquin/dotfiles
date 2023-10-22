@@ -43,6 +43,11 @@ brew update
 brew tap homebrew/bundle
 brew bundle --file ~/.dotfiles/Brewfile
 
+# Install oh-my-zsh theme
+git clone git@github.com:cdimascio/lambda-zsh-theme.git
+cp lambda-zsh-theme/cdimascio-lambda.zsh-theme ~/.oh-my-zsh/themes
+rm -rf lambda-zsh-theme/cdimascio-lambda.zsh-theme
+
 # Update terminal
 source ~/.zshrc
 
