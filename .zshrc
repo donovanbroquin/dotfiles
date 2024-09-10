@@ -16,6 +16,7 @@ source $ZSH/oh-my-zsh.sh
 #------------------------------------------
 # Replace basic ls
 alias ls="eza"
+alias cat="bat"
 
 # Replace terminal editors by neovim because it is 🔥
 alias vi="nvim"
