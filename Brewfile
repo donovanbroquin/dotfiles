@@ -23,6 +23,7 @@ cask 'sf-symbols'
 cask 'bruno'
 cask 'chatgpt'
 cask 'warp'
+cask 'spotify'
 
 # Apps from Mac App Store
 mas '1Blocker', id: 1365531024
