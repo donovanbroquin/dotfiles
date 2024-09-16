@@ -7,7 +7,6 @@ touch ~/.hushlogin
 
 # Create default projects directory
 mkdir ~/Projects
-mkdir ~/Playground
 
 # Export env variables
 export HOMEBREW_NO_AUTO_UPDATE=1
@@ -15,9 +14,9 @@ export HOMEBREW_NO_AUTO_UPDATE=1
 # Prepare SSH keys
 mkdir ~/.ssh
 cp /Users/donovan/Documents/Clés/SSH/id_* ~/.ssh
-chmod 600 ~/.ssh/id_rsa
+chmod 600 ~/.ssh/id_ed25519
 eval "$(ssh-agent -s)"
-ssh-add --apple-use-keychain ~/.ssh/id_rsa
+ssh-add --apple-use-keychain ~/.ssh/id_ed25519
 
 # Install Oh My Zsh
 if test ! $(which omz); then
