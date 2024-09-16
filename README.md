@@ -7,6 +7,3 @@ This my own dotfiles for fresh macOS install.
 3. Download the `~/Documents/Clés/SSH` folder
 4. Launch `git clone https://github.com/dhonnabhain/dotfiles.git ~/.dotfiles`
 5. Then `cd ~/.dotfiles && sh install.sh`
-
-## Manuals
-1. Open **iTerm** and import the `Nord.itermcolors`
